@@ -1,1 +1,0 @@
-./mychrmod.o

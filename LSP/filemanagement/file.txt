@@ -1,1 +1,0 @@
-AFTER dup2() call the printf can be used for write data into the file!

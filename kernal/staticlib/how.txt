@@ -1,4 +1,0 @@
-//Procedure to create and execute static libraries
-gcc -c display.c > display.o
-ar -rc libdisplay.a display.o
-gcc main.c -L. -ldisplay
