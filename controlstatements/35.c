@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+int a,b;
+printf("Enter a: ");
+scanf("%d",&a);
+printf("Enter b: ");
+scanf("%d",&b);
+int max;
+int lcm;
+int i;
+if (a>b)
+{
+  i=a;
+}
+else
+{
+  i=b;
+}
+for(i;1;i++)
+{
+  if((i%a==0) && (i%b==0))
+  {
+    lcm=i;
+    break;
+  }
+}
+printf("The lcm of a and b is %d",lcm);
+}
